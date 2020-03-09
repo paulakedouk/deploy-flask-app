@@ -1,6 +1,6 @@
 FROM python:stretch
 
-COPY ./ /app
+COPY . /app
 WORKDIR /app
 
 RUN pip3 install --upgrade pip
